@@ -79,7 +79,7 @@ function build() {
     return src([
         'app/**/*.html',
         'app/css/style.min.css',
-        'app/fanicon/**.**',
+        'app/favicon/**.**',
         'app/fonts/**.**',
         'app/js/main.min.js'
     ], {base: 'app'})
